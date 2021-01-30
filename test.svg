@@ -2,14 +2,14 @@
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
-        :root {
+        .root {
           --whitish: #fff;
           --blackish: #000;
           --bg: var(--blackish);
           --color: var(--whitish);
         }
         @media (prefers-color-scheme: dark) {
-          :root {
+          .root {
             --bg: var(--whitish);
             --color: var(--blackish);
           }
@@ -29,7 +29,7 @@
         }
 
 			</style>
-			<div>
+			<div class="root">
         <p>Test</p>
         <p><a href="https://de-liker.com">Hello Link</a></p>
         <div class="support-reverse-darkmode">
