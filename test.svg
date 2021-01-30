@@ -10,6 +10,10 @@
         }
 
         p {
+          color: var(--bg)
+        }
+
+        span {
           font-size: 32px;
         }
 
@@ -36,7 +40,7 @@
         <p>Test</p>
         <p><a href="https://de-liker.com">Hello Link</a></p>
         <div class="support-reverse-darkmode">
-          <p>This text should be rendered Black on in White dark mode.</p>
+          <span>This text should be rendered Black on in White dark mode.</span>
         </div>
 			</div>
 		</div>
