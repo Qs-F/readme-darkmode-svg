@@ -15,7 +15,7 @@
 			</style>
 			<div class="container">
         <p>Test</p>
-        <p><a href="hello">Hello Link</a>
+        <p><a href="hello">Hello Link</a></p>
         <div class="support-reverse-darkmode">
           <p>This text should be rendered Black on in White dark mode.</p>
         </div>
