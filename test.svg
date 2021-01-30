@@ -8,6 +8,12 @@
           --bg: var(--blackish);
           --color: var(--whitish);
         }
+        @media (prefers-color-scheme: dark) {
+          :root {
+            --bg: var(--whitish);
+            --color: var(--blackish);
+          }
+        }
 
         p {
           color: var(--bg)
@@ -22,25 +28,12 @@
           color: var(--color);
         }
 
-        @media (prefers-color-scheme: dark) {
-          .support-reverse-darkmode {
-            --bg: var(--whitish);
-            --color: var(--blackish);
-          }
-        }
-
-        @media (prefers-color-scheme: light) {
-          .support-reverse-darkmode {
-            --bg: var(--blackish);
-            --color: var(--whitish);
-          }
-        }
 			</style>
 			<div>
         <p>Test</p>
         <p><a href="https://de-liker.com">Hello Link</a></p>
         <div class="support-reverse-darkmode">
-          <span>This text should be rendered Black on in White dark mode.</span>
+          <span>This text should be rendered Black Text on White Background in dark mode.</span>
         </div>
 			</div>
 		</div>
