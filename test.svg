@@ -24,6 +24,13 @@
             --color: var(--blackish);
           }
         }
+
+        @media (prefers-color-scheme: light) {
+          .support-reverse-darkmode {
+            --bg: var(--blackish);
+            --color: var(--whitish);
+          }
+        }
 			</style>
 			<div>
         <p>Test</p>
