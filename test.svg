@@ -34,6 +34,7 @@
         <p><a href="https://de-liker.com">Hello Link</a></p>
         <div class="support-reverse-darkmode">
           <span>This text should be rendered Black Text on White Background in dark mode.</span>
+          <span>This text should be rendered White Text on Black Background in light mode.</span>
         </div>
 			</div>
 		</div>
